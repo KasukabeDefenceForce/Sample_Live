@@ -1,0 +1,71 @@
+127.0.0.1 - - [21/Nov/2023 21:09:23] "GET /index.html HTTP/1.1" 200 -
+127.0.0.1 - - [21/Nov/2023 21:09:23] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [21/Nov/2023 21:09:23] "GET /website_files/images/homepage/group2.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [21/Nov/2023 21:09:23] "GET /assets/css/style-liberty.css HTTP/1.1" 200 -
+127.0.0.1 - - [21/Nov/2023 21:09:23] "GET /website_files/images/homepage/group1.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [21/Nov/2023 21:09:23] "GET /website_files/images/article_content/nsflogo.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [21/Nov/2023 21:09:23] "GET /website_files/images/article_content/snr0509_viz.png HTTP/1.1" 200 -
+127.0.0.1 - - [21/Nov/2023 21:09:23] "GET /website_files/images/article_content/bea_midsure_poster.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [21/Nov/2023 21:09:23] "GET /assets/js/jquery.waypoints.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [21/Nov/2023 21:09:23] "GET /assets/js/jquery-3.3.1.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [21/Nov/2023 21:09:23] "GET /assets/js/theme-change.js HTTP/1.1" 200 -
+127.0.0.1 - - [21/Nov/2023 21:09:23] "GET /assets/js/jquery.countup.js HTTP/1.1" 200 -
+127.0.0.1 - - [21/Nov/2023 21:09:23] "GET /assets/js/owl.carousel.js HTTP/1.1" 200 -
+127.0.0.1 - - [21/Nov/2023 21:09:23] "GET /assets/js/bootstrap.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [21/Nov/2023 21:09:24] code 404, message File not found
+127.0.0.1 - - [21/Nov/2023 21:09:24] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [21/Nov/2023 21:09:24] "GET /website_files/images/banner1.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [21/Nov/2023 21:09:24] "GET /assets/webfonts/fa-solid-900.woff2 HTTP/1.1" 200 -
+127.0.0.1 - - [21/Nov/2023 21:10:57] "GET /People.html HTTP/1.1" 200 -
+127.0.0.1 - - [21/Nov/2023 21:10:57] "GET /assets/css/rotating-card.css HTTP/1.1" 200 -
+127.0.0.1 - - [21/Nov/2023 21:10:57] "GET /assets/css/pe-icon-7-stroke.css HTTP/1.1" 200 -
+127.0.0.1 - - [21/Nov/2023 21:10:57] "GET /assets/css/bootstrap.css HTTP/1.1" 200 -
+127.0.0.1 - - [21/Nov/2023 21:10:57] code 404, message File not found
+127.0.0.1 - - [21/Nov/2023 21:10:57] code 404, message File not found
+127.0.0.1 - - [21/Nov/2023 21:10:57] "GET /members/abhinav_ohri/media/images/abhinav_ohri HTTP/1.1" 404 -
+127.0.0.1 - - [21/Nov/2023 21:10:57] "GET /members/alexander_grunewald/media/images/cover.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [21/Nov/2023 21:10:57] "GET /members/abhinav_ohri/media/images/cover HTTP/1.1" 404 -
+127.0.0.1 - - [21/Nov/2023 21:10:57] "GET /members/alexander_grunewald/media/images/alexander.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [21/Nov/2023 21:10:57] "GET /members/andrew_fullard/media/images/cover.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [21/Nov/2023 21:10:57] "GET /members/anirban_dutta/media/images/anirban_dutta.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [21/Nov/2023 21:10:57] "GET /members/anirban_dutta/media/images/cover.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [21/Nov/2023 21:10:57] "GET /members/atharva_arya/media/images/atharva.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [21/Nov/2023 21:10:57] "GET /members/atharva_arya/media/images/cover.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [21/Nov/2023 21:10:57] "GET /members/bea_lu/media/images/cover.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [21/Nov/2023 21:10:57] code 404, message File not found
+127.0.0.1 - - [21/Nov/2023 21:10:57] "GET /website_files/images/me.jpeg HTTP/1.1" 404 -
+127.0.0.1 - - [21/Nov/2023 21:10:57] "GET /members/cecelia_powers/media/images/cover.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [21/Nov/2023 21:10:57] "GET /members/bea_lu/media/images/bea_lu.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [21/Nov/2023 21:10:57] "GET /members/hayden_monk/media/images/cover.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [21/Nov/2023 21:10:57] "GET /members/harshul_gupta/media/images/harshul.jpeg HTTP/1.1" 200 -
+127.0.0.1 - - [21/Nov/2023 21:10:57] "GET /members/harshul_gupta/media/images/cover.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [21/Nov/2023 21:10:57] "GET /members/erin_visser/media/images/cover.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [21/Nov/2023 21:10:57] "GET /members/jaladh_singhal/media/images/cover.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [21/Nov/2023 21:10:57] "GET /members/iliomar_rodriguez_ramos/media/images/cover.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [21/Nov/2023 21:10:57] "GET /members/jack_o_brien/media/images/cover.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [21/Nov/2023 21:10:57] "GET /members/hayden_monk/media/images/hayden.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [21/Nov/2023 21:10:57] "GET /members/josh_shields/media/images/josh_photo.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [21/Nov/2023 21:10:57] "GET /members/josh_shields/media/images/cover.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [21/Nov/2023 21:10:57] "GET /members/jing_lu/media/images/jing.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [21/Nov/2023 21:10:57] "GET /members/jing_lu/media/images/cover.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [21/Nov/2023 21:10:57] "GET /members/jaladh_singhal/media/images/jaladh.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [21/Nov/2023 21:10:57] "GET /members/richard_dow/media/images/richard.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [21/Nov/2023 21:10:57] "GET /members/richard_dow/media/images/cover.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [21/Nov/2023 21:10:57] "GET /members/sona_chitchyan/media/images/cover.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [21/Nov/2023 21:10:57] "GET /members/sona_chitchyan/media/images/sona_photo.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [21/Nov/2023 21:10:57] "GET /members/sofia_biriouk/media/images/cover.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [21/Nov/2023 21:10:57] code 404, message File not found
+127.0.0.1 - - [21/Nov/2023 21:10:57] "GET /members/benjamin_mellon/media/images/cover.jpg HTTP/1.1" 404 -
+127.0.0.1 - - [21/Nov/2023 21:10:57] "GET /members/yuki_matsumura/media/images/cover.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [21/Nov/2023 21:10:57] "GET /members/wolfgang_kerzendorf/media/images/cover.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [21/Nov/2023 21:10:57] "GET /members/vicente_amado/media/images/ESD_headshot.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [21/Nov/2023 21:10:57] "GET /members/vicente_amado/media/images/cover.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [21/Nov/2023 21:10:57] "GET /members/kevin_cawley/media/images/KevinCawleyFall2022.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [21/Nov/2023 21:10:57] "GET /members/kevin_cawley/media/images/cover.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [21/Nov/2023 21:10:57] "GET /members/isaac_smith/media/images/isaac_image.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [21/Nov/2023 21:10:57] "GET /members/isaac_smith/media/images/cover.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [21/Nov/2023 21:10:57] code 404, message File not found
+127.0.0.1 - - [21/Nov/2023 21:10:57] "GET /members/benjamin_mellon/media/images/benface.png HTTP/1.1" 404 -
+127.0.0.1 - - [21/Nov/2023 21:10:57] "GET /members/andrew_fullard/media/images/me.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [21/Nov/2023 21:10:57] "GET /assets/js/jquery.magnific-popup.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [21/Nov/2023 21:10:57] "GET /assets/webfonts/fa-brands-400.woff2 HTTP/1.1" 200 -
