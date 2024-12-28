@@ -6,19 +6,22 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    
     <title>
-    News | Kerzendorf Group
+    News | Kerzendorf Lab
 </title>
 
     <!-- google-fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;500;700;900&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.min.js"></script>
     
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&amp;display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;500;700;900&amp;display=swap" rel="stylesheet">
 
     <!-- //google-fonts -->
-
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <!-- Template CSS Style link -->
     <link rel="stylesheet" href="./assets/css/style-liberty.css">
 
@@ -62,6 +65,28 @@
             text-decoration: none;
         }
 
+        h5:hover {
+            color: #673ab7 !important;
+            text-decoration: underline;
+        }
+
+        .badge {
+            display: inline-block;
+            background-color: #673ab7; /* Background color of the badge */
+            color: white;          /* Text color */
+            padding: 4px 8px;     /* Padding around the text */
+            border-radius: 5px;   /* Rounded corners *
+            text-align: center;    /* Center the text */
+        }
+
+        .badge-tray {
+            display: flex;
+            gap: 5px;
+            margin-bottom: 10px;
+            overflow: auto;
+            overflow-x: auto;
+        }
+
         .heading:hover {
             background-image: linear-gradient(to left, #673ab7, #673ab7);
             /* Gradient from right to left */
@@ -85,7 +110,7 @@
         <nav class="navbar navbar-expand-lg stroke">
             <h1>
                 <a class="navbar-brand" href="./index.html">
-                    <!--span class="fa fa-lightbulb"></span--> Kerzendorf Group
+                    <!--span class="fa fa-lightbulb"></span--> Kerzendorf Lab
                 </a>
             </h1>
             <button class="navbar-toggler collapsed bg-gradient" type="button" data-bs-toggle="collapse"
@@ -114,7 +139,6 @@
                             
                                 
                                     <a class="nav-link dropdown-toggle"
-                                        href="./People.html"
                                         id="navbarDropdown"
                                         role="button"
                                         data-bs-toggle="dropdown"
@@ -155,12 +179,12 @@
                                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                                         
                                             
-                                            <a class="dropdown-item" href="./sub_research/astrophysical_transients.html">
-                                                Astrophysical Transients
+                                            <a class="dropdown-item" href="./research/astrophysics_&_cosmology/info.html">
+                                                Astrophysics & Cosmology
                                             </a>
                                         
                                             
-                                            <a class="dropdown-item" href="./sub_research/computational_metascience.html">
+                                            <a class="dropdown-item" href="./research/computational_metascience/info.html">
                                                 Computational Metascience
                                             </a>
                                         
@@ -175,6 +199,17 @@
                                 
                                     <a class="nav-link" href="./News.html">
                                         News <span class="sr-only">(current)</span>
+                                    </a>
+                                
+                            
+                        </li>
+                    
+                        
+                        <li class="nav-item">
+                            
+                                
+                                    <a class="nav-link" href="./Join_Us.html">
+                                        Join Us <span class="sr-only">(current)</span>
                                     </a>
                                 
                             
@@ -227,151 +262,50 @@
 
     
     <!-- about banner -->
-        <section class="w3l-about-breadcrumb text-center">
-            <div class="breadcrumb-bg breadcrumb-bg-people py-5">
-                <div class="container py-lg-5 py-md-4">
-                    <div class="banner-info-grid px-md-5" style="margin-top: 2%;">
-                        <h2 class="w3l-title-breadcrumb mb-3">News</h2>
-                    </div>
+    <section class="w3l-about-breadcrumb text-center">
+        <div class="breadcrumb-bg breadcrumb-bg-people py-5">
+            <div class="container py-lg-5 py-md-4">
+                <div class="banner-info-grid px-md-5" style="margin-top: 2%;">
+                    <h2 class="w3l-title-breadcrumb mb-3">News</h2>
                 </div>
             </div>
-        </section>
+        </div>
+    </section>
     <!-- //about banner -->
 
     <!-- Blog Section -->
-
-        <section class="w3l-blog shift">
-            <div class="blog py-5" id="Newsblog">
-                <div class="container py-lg-5 py-md-4 py-2">
-                    
-                    <div class="row" style="padding-top: 5%;">
-                        <div class="col-lg-6 col-md-6 item" style="width: 520px;">
-                            <div class="card">
-                                <div class="card-header p-0 position-relative">
-                                    
-                                <a href="news/reu_student_announcement.html"
-                                    class="zoom d-block">
-                                    
-                                    
-                                        <img style="width: 520px; height: 330px" class="card-img-bottom d-block"
-                                            src="website_files/images/article_content/nsflogo.jpg" alt="array">
-                                    </a>
-                                    <div class="date">
-                                        <p>06-23-2023</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-6 item">
-                            <div class="card">
-                                <div class="card-body blog-details" style="max-height: 330px">
-                                    
-                                    <a href="news/reu_student_announcement.html"
-                                        class="zoom d-blog">
-                                        
-                                        
-                                            <div class="heading">
-                                                <h5
-                                                    style="font-weight: bold; overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; font-size:19px; height:70px ">
-                                                    Summer REU Students Join Kerzendorf Group
-                                                </h5>
-                                        </a>
-                                </div>
-                                <hr style="border-top: 1px dotted rgba(143, 143, 143);">
-                                <div class="price-review mb-1 align-items-center">
-                                    <p
-                                        style="font-size: 15px; overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 4; -webkit-box-orient: vertical; height:109px">
-                                        Two undergraduate research assistants have joined the Kerzendorf Group, as part of a National Science Foundation REU grant.
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="card-footer">
-                                <div>
-                                    <ul class="blog-meta">
-                                        <li>
-                                            <a style="font-size:10px">Contributer(s):</a>
-                                        </li>
-                                        
-                                        
-
-                                            
-
-                                            
-                                        <li>
-                                            <a href="members/richard_dow/richard_dow.html" target="_blank">
-                                                <p style="font-size: 10px; height:35px"> Tripp</p>
-                                            </a>
-                                        </li>
-
-                                            
-
-                                        
-                                        <li>, </li>
-                                        
-                                        
-                                        
-
-                                            
-
-                                            
-                                        <li>
-                                            <a href="members/iliomar_rodriguez_ramos/iliomar_rodriguez_ramos.html" target="_blank">
-                                                <p style="font-size: 10px; height:35px"> Iliomar</p>
-                                            </a>
-                                        </li>
-
-                                            
-
-                                        
-                                        
-                                    </ul>
+    <section class="w3l-blog shift">
+        <div class="blog py-5" id="Newsblog">
+            <div class="container py-lg-5 py-md-4 py-2">
+                
+                <div class="row" style="padding-top: 5%;">
+                    <div class="col-lg-6 col-md-6 item" style="width: 520px;">
+                        <div class="card" id="card">
+                            <div class="card-header p-0 position-relative">
+                               <a class="zoom d-flex" href="../../news/sample_news_1.html">
+                                    <img style="width: 520px; height: 330px" class="card-img-bottom d-block"
+                                        id="news-cover-image" src="website_files/images/article_content/p_1.jpg" alt="array">
+                                </a>
+                                <div class="date">
+                                    <p>25th Dec, 2024</p>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
-                
-                    <div class="row" style="padding-top: 5%;">
-                        <div class="col-lg-6 col-md-6 item" style="width: 520px;">
-                            <div class="card">
-                                <div class="card-header p-0 position-relative">
+                    <div class="col-lg-4 col-md-6 item">
+                        <div class="card">
+                            <div class="card-body blog-details" style="max-height: 330px">
+                                <div class='badge-tray'>
                                     
-                                <a href="news/esa_internship_vicente.html"
-                                    class="zoom d-block">
-                                    
-                                    
-                                        <img style="width: 520px; height: 330px" class="card-img-bottom d-block"
-                                            src="website_files/images/article_content/esa_internship.png" alt="array">
-                                    </a>
-                                    <div class="date">
-                                        <p>06-15-2023</p>
-                                    </div>
                                 </div>
+                                <a class="zoom d-blog" href="../../news/sample_news_1.html">
+                                    <h5 style="font-weight: bold; overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 7; -webkit-box-orient: vertical; font-size:19px; height:auto;">
+                                    sample_news_1
+                                    </h5>
+                                </a>
+                                
                             </div>
-                        </div>
-                        <div class="col-lg-4 col-md-6 item">
-                            <div class="card">
-                                <div class="card-body blog-details" style="max-height: 330px">
-                                    
-                                    <a href="news/esa_internship_vicente.html"
-                                        class="zoom d-blog">
-                                        
-                                        
-                                            <div class="heading">
-                                                <h5
-                                                    style="font-weight: bold; overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; font-size:19px; height:70px ">
-                                                    European Space Agency Research Internship
-                                                </h5>
-                                        </a>
-                                </div>
-                                <hr style="border-top: 1px dotted rgba(143, 143, 143);">
-                                <div class="price-review mb-1 align-items-center">
-                                    <p
-                                        style="font-size: 15px; overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 4; -webkit-box-orient: vertical; height:109px">
-                                        Unleashing the Power of Data Science: Internship at the European Space Agency's Deepthought Initiative Explores Astrophysics Meta-Research.
-                                    </p>
-                                </div>
-                            </div>
+                            
                             <div class="card-footer">
                                 <div>
                                     <ul class="blog-meta">
@@ -380,206 +314,847 @@
                                         </li>
                                         
                                         
-
                                             
-
-                                            
-                                        <li>
-                                            <a href="members/vicente_amado/vicente_amado.html" target="_blank">
-                                                <p style="font-size: 10px; height:35px"> Vicente</p>
-                                            </a>
-                                        </li>
-
-                                            
-
-                                        
-                                        <li>, </li>
-                                        
-                                        
-                                        
-
-                                            
-
-                                            
-                                        <li>
-                                            <a href="members/wolfgang_kerzendorf/wolfgang_kerzendorf.html" target="_blank">
-                                                <p style="font-size: 10px; height:35px"> Wolfgang</p>
-                                            </a>
-                                        </li>
-
-                                            
-
-                                        
-                                        
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                
-                    <div class="row" style="padding-top: 5%;">
-                        <div class="col-lg-6 col-md-6 item" style="width: 520px;">
-                            <div class="card">
-                                <div class="card-header p-0 position-relative">
-                                    
-                                    
-                                    <a href="sub_research/astrophysical_transients/snr0509_josh_paper.html"
-                                        class="zoom d-block">
-                                        
-                                        <img style="width: 520px; height: 330px" class="card-img-bottom d-block"
-                                            src="website_files/images/article_content/snr0509_viz.png" alt="array">
-                                    </a>
-                                    <div class="date">
-                                        <p>05-28-2023</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-6 item">
-                            <div class="card">
-                                <div class="card-body blog-details" style="max-height: 330px">
-                                    
-                                        
-                                        <a href="sub_research/astrophysical_transients/snr0509_josh_paper.html"
-                                            class="zoom d-blog">
-                                            
-                                            <div class="heading">
-                                                <h5
-                                                    style="font-weight: bold; overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; font-size:19px; height:70px ">
-                                                    A comprehensive SN Ia companion search in SNR 0509-67.5
-                                                </h5>
-                                        </a>
-                                </div>
-                                <hr style="border-top: 1px dotted rgba(143, 143, 143);">
-                                <div class="price-review mb-1 align-items-center">
-                                    <p
-                                        style="font-size: 15px; overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 4; -webkit-box-orient: vertical; height:109px">
-                                        A search for a surviving companion to a 400 year old type Ia supernova in the Large Magellanic Cloud
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="card-footer">
-                                <div>
-                                    <ul class="blog-meta">
-                                        <li>
-                                            <a style="font-size:10px">Contributer(s):</a>
-                                        </li>
-                                        
-                                        
-
-                                            
-
                                             
                                         <li>
                                             <a href="members/josh_shields/josh_shields.html" target="_blank">
-                                                <p style="font-size: 10px; height:35px"> Josh</p>
+                                                <p style="font-size: 10px; height:35px"> Josh Shields</p>
                                             </a>
                                         </li>
-
                                             
-
+                                        
+                                        
+                                    </ul>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="row" style="padding-top: 5%;">
+                    <div class="col-lg-6 col-md-6 item" style="width: 520px;">
+                        <div class="card" id="card">
+                            <div class="card-header p-0 position-relative">
+                               <a class="zoom d-flex" href="../../news/identify_telescope_machine_vicente.html">
+                                    <img style="width: 520px; height: 330px" class="card-img-bottom d-block"
+                                        id="news-cover-image" src="website_files/images/article_content/mastvsnomast.png" alt="array">
+                                </a>
+                                <div class="date">
+                                    <p>12th Nov, 2024</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 item">
+                        <div class="card">
+                            <div class="card-body blog-details" style="max-height: 330px">
+                                <div class='badge-tray'>
+                                    
+                                    
+                                    <span class="badge">Paper</span>
+                                    
+                                    
+                                    
+                                    <span class="badge">Achievement</span>
+                                    
+                                    
+                                </div>
+                                <a class="zoom d-blog" href="../../news/identify_telescope_machine_vicente.html">
+                                    <h5 style="font-weight: bold; overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 7; -webkit-box-orient: vertical; font-size:19px; height:auto;">
+                                     Identifying Telescope Usage in Astrophysics Publications: A Machine Learning Framework for Institutional Research Management at Observatories
+                                    </h5>
+                                </a>
+                                
+                            </div>
+                            
+                                <div class="card-footer">
+                                
+                                
+                                    
+                                    
+                                    <div class="author align-items-center">
+                                        <ul class="blog-meta">
+                                            <li>
+                                                <a href="../members/vicente_amado/vicente_amado.html" target="_blank">Vicente  Amado Olivo</a>
+                                            </li>
+                                        </ul>
+                                        <a href="../members/vicente_amado/vicente_amado.html" class="post-author ms-auto" target="_blank">
+                                            <img src="../members/vicente_amado/media/images/ESD_headshot.jpg" alt="Author's Image" class="img-fluid rounded-circle">
+                                        </a>
+                                    </div>
+                                
+                                </div>
+                            
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="row" style="padding-top: 5%;">
+                    <div class="col-lg-6 col-md-6 item" style="width: 520px;">
+                        <div class="card" id="card">
+                            <div class="card-header p-0 position-relative">
+                               <a class="zoom d-flex" href="../../news/gracie_at_acres_msu_nsf.html">
+                                    <img style="width: 520px; height: 330px" class="card-img-bottom d-block"
+                                        id="news-cover-image" src="website_files/images/article_content/image1.png" alt="array">
+                                </a>
+                                <div class="date">
+                                    <p>30th Jul, 2024</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 item">
+                        <div class="card">
+                            <div class="card-body blog-details" style="max-height: 330px">
+                                <div class='badge-tray'>
+                                    
+                                    
+                                    <span class="badge">Undergraduate</span>
+                                    
+                                    
+                                    
+                                    <span class="badge">Achievement</span>
+                                    
+                                    
+                                </div>
+                                <a class="zoom d-blog" href="../../news/gracie_at_acres_msu_nsf.html">
+                                    <h5 style="font-weight: bold; overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 7; -webkit-box-orient: vertical; font-size:19px; height:auto;">
+                                    Our Student Gracie wins best talk at the ACRES MSU NSF Research Experiences for Undergraduates Symposium 
+                                    </h5>
+                                </a>
+                                
+                            </div>
+                            
+                                <div class="card-footer">
+                                
+                                
+                                    
+                                    
+                                    <div class="author align-items-center">
+                                        <ul class="blog-meta">
+                                            <li>
+                                                <a href="../members/gracie_tvrdik/gracie_tvrdik.html" target="_blank">Gracie  Tvrdik</a>
+                                            </li>
+                                        </ul>
+                                        <a href="../members/gracie_tvrdik/gracie_tvrdik.html" class="post-author ms-auto" target="_blank">
+                                            <img src="../members/gracie_tvrdik/media/images/gracie.jpg" alt="Author's Image" class="img-fluid rounded-circle">
+                                        </a>
+                                    </div>
+                                
+                                </div>
+                            
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="row" style="padding-top: 5%;">
+                    <div class="col-lg-6 col-md-6 item" style="width: 520px;">
+                        <div class="card" id="card">
+                            <div class="card-header p-0 position-relative">
+                               <a class="zoom d-flex" href="../../news/reu_student_announcement_2024.html">
+                                    <img style="width: 520px; height: 330px" class="card-img-bottom d-block"
+                                        id="news-cover-image" src="website_files/images/article_content/REU_and_mentor_group_photo.jpg" alt="array">
+                                </a>
+                                <div class="date">
+                                    <p>16th Jul, 2024</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 item">
+                        <div class="card">
+                            <div class="card-body blog-details" style="max-height: 330px">
+                                <div class='badge-tray'>
+                                    
+                                    
+                                    <span class="badge">Research</span>
+                                    
+                                    
+                                    
+                                    <span class="badge">Internship</span>
+                                    
+                                    
+                                    
+                                    <span class="badge">Achievement</span>
+                                    
+                                    
+                                </div>
+                                <a class="zoom d-blog" href="../../news/reu_student_announcement_2024.html">
+                                    <h5 style="font-weight: bold; overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 7; -webkit-box-orient: vertical; font-size:19px; height:auto;">
+                                    REU Students Join Kerzendorf Group for Summer 2024
+                                    </h5>
+                                </a>
+                                
+                            </div>
+                            
+                                <div class="card-footer">
+                                
+                                
+                                    
+                                    
+                                    <div class="author align-items-center">
+                                        <ul class="blog-meta">
+                                            <li>
+                                                <a href="../members/gracie_tvrdik/gracie_tvrdik.html" target="_blank">Gracie  Tvrdik</a>
+                                            </li>
+                                        </ul>
+                                        <a href="../members/gracie_tvrdik/gracie_tvrdik.html" class="post-author ms-auto" target="_blank">
+                                            <img src="../members/gracie_tvrdik/media/images/gracie.jpg" alt="Author's Image" class="img-fluid rounded-circle">
+                                        </a>
+                                    </div>
+                                
+                                </div>
+                            
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="row" style="padding-top: 5%;">
+                    <div class="col-lg-6 col-md-6 item" style="width: 520px;">
+                        <div class="card" id="card">
+                            <div class="card-header p-0 position-relative">
+                               <a class="zoom d-flex" href="../../news/icssi_poster_vicente.html">
+                                    <img style="width: 520px; height: 330px" class="card-img-bottom d-block"
+                                        id="news-cover-image" src="website_files/images/article_content/icssi_poster.jpeg" alt="array">
+                                </a>
+                                <div class="date">
+                                    <p>01st Jul, 2024</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 item">
+                        <div class="card">
+                            <div class="card-body blog-details" style="max-height: 330px">
+                                <div class='badge-tray'>
+                                    
+                                    
+                                    
+                                    
+                                    <span class="badge">Research</span>
+                                    
+                                    
+                                    
+                                    <span class="badge">Achievement</span>
+                                    
+                                    
+                                </div>
+                                <a class="zoom d-blog" href="../../news/icssi_poster_vicente.html">
+                                    <h5 style="font-weight: bold; overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 7; -webkit-box-orient: vertical; font-size:19px; height:auto;">
+                                    Vicente Amado Olivo Bridges Machine Learning and Science of Science at ICSSI
+                                    </h5>
+                                </a>
+                                
+                            </div>
+                            
+                                <div class="card-footer">
+                                
+                                
+                                    
+                                    
+                                    <div class="author align-items-center">
+                                        <ul class="blog-meta">
+                                            <li>
+                                                <a href="../members/vicente_amado/vicente_amado.html" target="_blank">Vicente  Amado Olivo</a>
+                                            </li>
+                                        </ul>
+                                        <a href="../members/vicente_amado/vicente_amado.html" class="post-author ms-auto" target="_blank">
+                                            <img src="../members/vicente_amado/media/images/ESD_headshot.jpg" alt="Author's Image" class="img-fluid rounded-circle">
+                                        </a>
+                                    </div>
+                                
+                                </div>
+                            
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="row" style="padding-top: 5%;">
+                    <div class="col-lg-6 col-md-6 item" style="width: 520px;">
+                        <div class="card" id="card">
+                            <div class="card-header p-0 position-relative">
+                               <a class="zoom d-flex" href="../../news/thesis_defense_josh.html">
+                                    <img style="width: 520px; height: 330px" class="card-img-bottom d-block"
+                                        id="news-cover-image" src="website_files/images/article_content/josh_defense_title_slide.jpg" alt="array">
+                                </a>
+                                <div class="date">
+                                    <p>03rd May, 2024</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 item">
+                        <div class="card">
+                            <div class="card-body blog-details" style="max-height: 330px">
+                                <div class='badge-tray'>
+                                    
+                                    
+                                    <span class="badge">Phd</span>
+                                    
+                                    
+                                    
+                                    <span class="badge">Thesis</span>
+                                    
+                                    
+                                    
+                                    <span class="badge">Defense</span>
+                                    
+                                    
+                                    
+                                    <span class="badge">Supernova</span>
+                                    
+                                    
+                                    
+                                    <span class="badge">Achievement</span>
+                                    
+                                    
+                                </div>
+                                <a class="zoom d-blog" href="../../news/thesis_defense_josh.html">
+                                    <h5 style="font-weight: bold; overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 7; -webkit-box-orient: vertical; font-size:19px; height:auto;">
+                                    A Dr. is Born - Josh Shields Defends Thesis on SN Ia Surviving Companions
+                                    </h5>
+                                </a>
+                                
+                            </div>
+                            
+                                <div class="card-footer">
+                                
+                                
+                                    
+                                    
+                                    <div class="author align-items-center">
+                                        <ul class="blog-meta">
+                                            <li>
+                                                <a href="../members/josh_shields/josh_shields.html" target="_blank">Josh Shields</a>
+                                            </li>
+                                        </ul>
+                                        <a href="../members/josh_shields/josh_shields.html" class="post-author ms-auto" target="_blank">
+                                            <img src="../members/josh_shields/media/images/josh_photo.jpg" alt="Author's Image" class="img-fluid rounded-circle">
+                                        </a>
+                                    </div>
+                                
+                                </div>
+                            
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="row" style="padding-top: 5%;">
+                    <div class="col-lg-6 col-md-6 item" style="width: 520px;">
+                        <div class="card" id="card">
+                            <div class="card-header p-0 position-relative">
+                               <a class="zoom d-flex" href="../../news/comp_cmse_vicente.html">
+                                    <img style="width: 520px; height: 330px" class="card-img-bottom d-block"
+                                        id="news-cover-image" src="website_files/images/article_content/cmse_comp_vicente.jpg" alt="array">
+                                </a>
+                                <div class="date">
+                                    <p>02nd May, 2024</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 item">
+                        <div class="card">
+                            <div class="card-body blog-details" style="max-height: 330px">
+                                <div class='badge-tray'>
+                                    
+                                    
+                                    <span class="badge">Phd</span>
+                                    
+                                    
+                                    
+                                    <span class="badge">Research</span>
+                                    
+                                    
+                                    
+                                    <span class="badge">Achievement</span>
+                                    
+                                    
+                                </div>
+                                <a class="zoom d-blog" href="../../news/comp_cmse_vicente.html">
+                                    <h5 style="font-weight: bold; overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 7; -webkit-box-orient: vertical; font-size:19px; height:auto;">
+                                    Comprehensive Examination Announcement: Our Graduate Student Vicente becomes a PhD Candidate
+                                    </h5>
+                                </a>
+                                
+                            </div>
+                            
+                                <div class="card-footer">
+                                
+                                
+                                    
+                                    
+                                    <div class="author align-items-center">
+                                        <ul class="blog-meta">
+                                            <li>
+                                                <a href="../members/vicente_amado/vicente_amado.html" target="_blank">Vicente  Amado Olivo</a>
+                                            </li>
+                                        </ul>
+                                        <a href="../members/vicente_amado/vicente_amado.html" class="post-author ms-auto" target="_blank">
+                                            <img src="../members/vicente_amado/media/images/ESD_headshot.jpg" alt="Author's Image" class="img-fluid rounded-circle">
+                                        </a>
+                                    </div>
+                                
+                                </div>
+                            
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="row" style="padding-top: 5%;">
+                    <div class="col-lg-6 col-md-6 item" style="width: 520px;">
+                        <div class="card" id="card">
+                            <div class="card-header p-0 position-relative">
+                               <a class="zoom d-flex" href="../../news/thesis_defence_jack.html">
+                                    <img style="width: 520px; height: 330px" class="card-img-bottom d-block"
+                                        id="news-cover-image" src="website_files/images/article_content/jackDefence.jpg" alt="array">
+                                </a>
+                                <div class="date">
+                                    <p>20th Apr, 2024</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 item">
+                        <div class="card">
+                            <div class="card-body blog-details" style="max-height: 330px">
+                                <div class='badge-tray'>
+                                    
+                                    
+                                    <span class="badge">Phd</span>
+                                    
+                                    
+                                    
+                                    <span class="badge">Thesis</span>
+                                    
+                                    
+                                    
+                                    <span class="badge">Achievement</span>
+                                    
+                                    
+                                    
+                                    
+                                </div>
+                                <a class="zoom d-blog" href="../../news/thesis_defence_jack.html">
+                                    <h5 style="font-weight: bold; overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 7; -webkit-box-orient: vertical; font-size:19px; height:auto;">
+                                    Dr. Jack O'Brien Successfully Defends Thesis on Supernova Progenitor Identification
+                                    </h5>
+                                </a>
+                                
+                            </div>
+                            
+                                <div class="card-footer">
+                                
+                                
+                                    
+                                    
+                                    <div class="author align-items-center">
+                                        <ul class="blog-meta">
+                                            <li>
+                                                <a href="../members/jack_o_brien/jack_o_brien.html" target="_blank">Jack O'Brien</a>
+                                            </li>
+                                        </ul>
+                                        <a href="../members/jack_o_brien/jack_o_brien.html" class="post-author ms-auto" target="_blank">
+                                            <img src="../members/jack_o_brien/media/images/jack.jpg" alt="Author's Image" class="img-fluid rounded-circle">
+                                        </a>
+                                    </div>
+                                
+                                </div>
+                            
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="row" style="padding-top: 5%;">
+                    <div class="col-lg-6 col-md-6 item" style="width: 520px;">
+                        <div class="card" id="card">
+                            <div class="card-header p-0 position-relative">
+                               <a class="zoom d-flex" href="../../news/geonintern_international_ben.html">
+                                    <img style="width: 520px; height: 330px" class="card-img-bottom d-block"
+                                        id="news-cover-image" src="website_files/images/article_content/2BCAFnorway_geo.jpg" alt="array">
+                                </a>
+                                <div class="date">
+                                    <p>18th Mar, 2024</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 item">
+                        <div class="card">
+                            <div class="card-body blog-details" style="max-height: 330px">
+                                <div class='badge-tray'>
+                                    
+                                    
+                                    <span class="badge">Undergraduate</span>
+                                    
+                                    
+                                    
+                                    <span class="badge">Internship</span>
+                                    
+                                    
+                                    
+                                    <span class="badge">Research</span>
+                                    
+                                    
+                                    
+                                    <span class="badge">Achievement</span>
+                                    
+                                    
+                                </div>
+                                <a class="zoom d-blog" href="../../news/geonintern_international_ben.html">
+                                    <h5 style="font-weight: bold; overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 7; -webkit-box-orient: vertical; font-size:19px; height:auto;">
+                                    Unveiling Earth's Secrets with AI: Our Undergraduate Benjamin Lands Oslo Internship
+                                    </h5>
+                                </a>
+                                
+                            </div>
+                            
+                                <div class="card-footer">
+                                
+                                
+                                    
+                                    
+                                    <div class="author align-items-center">
+                                        <ul class="blog-meta">
+                                            <li>
+                                                <a href="../members/benjamin_mellon/benjamin_mellon.html" target="_blank">Benjamin Mellon</a>
+                                            </li>
+                                        </ul>
+                                        <a href="../members/benjamin_mellon/benjamin_mellon.html" class="post-author ms-auto" target="_blank">
+                                            <img src="../members/benjamin_mellon/media/images/ben.png" alt="Author's Image" class="img-fluid rounded-circle">
+                                        </a>
+                                    </div>
+                                
+                                </div>
+                            
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="row" style="padding-top: 5%;">
+                    <div class="col-lg-6 col-md-6 item" style="width: 520px;">
+                        <div class="card" id="card">
+                            <div class="card-header p-0 position-relative">
+                               <a class="zoom d-flex" href="../../news/bcbsm_internship_bea.html">
+                                    <img style="width: 520px; height: 330px" class="card-img-bottom d-block"
+                                        id="news-cover-image" src="website_files/images/article_content/bcbsm.jpeg" alt="array">
+                                </a>
+                                <div class="date">
+                                    <p>14th Mar, 2024</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 item">
+                        <div class="card">
+                            <div class="card-body blog-details" style="max-height: 330px">
+                                <div class='badge-tray'>
+                                    
+                                    
+                                    <span class="badge">Internship</span>
+                                    
+                                    
+                                    
+                                    <span class="badge">Undergraduate</span>
+                                    
+                                    
+                                    
+                                    <span class="badge">Achievement</span>
+                                    
+                                    
+                                </div>
+                                <a class="zoom d-blog" href="../../news/bcbsm_internship_bea.html">
+                                    <h5 style="font-weight: bold; overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 7; -webkit-box-orient: vertical; font-size:19px; height:auto;">
+                                    From Research to Real-World Impact: Our Undergrad Bea Joins BCBSM's Analytics Center
+                                    </h5>
+                                </a>
+                                
+                            </div>
+                            
+                                <div class="card-footer">
+                                
+                                
+                                    
+                                    
+                                    <div class="author align-items-center">
+                                        <ul class="blog-meta">
+                                            <li>
+                                                <a href="../members/bea_lu/bea_lu.html" target="_blank">Bea Lu</a>
+                                            </li>
+                                        </ul>
+                                        <a href="../members/bea_lu/bea_lu.html" class="post-author ms-auto" target="_blank">
+                                            <img src="../members/bea_lu/media/images/bea_lu.jpg" alt="Author's Image" class="img-fluid rounded-circle">
+                                        </a>
+                                    </div>
+                                
+                                </div>
+                            
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="row" style="padding-top: 5%;">
+                    <div class="col-lg-6 col-md-6 item" style="width: 520px;">
+                        <div class="card" id="card">
+                            <div class="card-header p-0 position-relative">
+                               <a class="zoom d-flex" href="../../news/reu_student_announcement.html">
+                                    <img style="width: 520px; height: 330px" class="card-img-bottom d-block"
+                                        id="news-cover-image" src="website_files/images/article_content/nsflogo.jpg" alt="array">
+                                </a>
+                                <div class="date">
+                                    <p>23rd Jun, 2023</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 item">
+                        <div class="card">
+                            <div class="card-body blog-details" style="max-height: 330px">
+                                <div class='badge-tray'>
+                                    
+                                    
+                                    <span class="badge">Research</span>
+                                    
+                                    
+                                    
+                                    <span class="badge">Internship</span>
+                                    
+                                    
+                                    
+                                    <span class="badge">Achievement</span>
+                                    
+                                    
+                                </div>
+                                <a class="zoom d-blog" href="../../news/reu_student_announcement.html">
+                                    <h5 style="font-weight: bold; overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 7; -webkit-box-orient: vertical; font-size:19px; height:auto;">
+                                    Summer REU Students Join Kerzendorf Group
+                                    </h5>
+                                </a>
+                                
+                            </div>
+                            
+                                <div class="card-footer">
+                                
+                                
+                                    
+                                    
+                                    <div class="author align-items-center">
+                                        <ul class="blog-meta">
+                                            <li>
+                                                <a href="../members/richard_dow/richard_dow.html" target="_blank">Tripp Dow</a>
+                                            </li>
+                                        </ul>
+                                        <a href="../members/richard_dow/richard_dow.html" class="post-author ms-auto" target="_blank">
+                                            <img src="../members/richard_dow/media/images/richard.jpg" alt="Author's Image" class="img-fluid rounded-circle">
+                                        </a>
+                                    </div>
+                                
+                                </div>
+                            
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="row" style="padding-top: 5%;">
+                    <div class="col-lg-6 col-md-6 item" style="width: 520px;">
+                        <div class="card" id="card">
+                            <div class="card-header p-0 position-relative">
+                               <a class="zoom d-flex" href="../../news/esa_internship_vicente.html">
+                                    <img style="width: 520px; height: 330px" class="card-img-bottom d-block"
+                                        id="news-cover-image" src="website_files/images/article_content/esa_internship.png" alt="array">
+                                </a>
+                                <div class="date">
+                                    <p>15th Jun, 2023</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 item">
+                        <div class="card">
+                            <div class="card-body blog-details" style="max-height: 330px">
+                                <div class='badge-tray'>
+                                    
+                                    
+                                    <span class="badge">Research</span>
+                                    
+                                    
+                                    
+                                    <span class="badge">Internship</span>
+                                    
+                                    
+                                    
+                                    <span class="badge">Achievement</span>
+                                    
+                                    
+                                </div>
+                                <a class="zoom d-blog" href="../../news/esa_internship_vicente.html">
+                                    <h5 style="font-weight: bold; overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 7; -webkit-box-orient: vertical; font-size:19px; height:auto;">
+                                    Bridging the Gaps: Our PhD Student Vicente interns at ESA, Applying Machine Learning to Astrophysics Literature
+                                    </h5>
+                                </a>
+                                
+                            </div>
+                            
+                                <div class="card-footer">
+                                
+                                
+                                    
+                                    
+                                    <div class="author align-items-center">
+                                        <ul class="blog-meta">
+                                            <li>
+                                                <a href="../members/vicente_amado/vicente_amado.html" target="_blank">Vicente  Amado Olivo</a>
+                                            </li>
+                                        </ul>
+                                        <a href="../members/vicente_amado/vicente_amado.html" class="post-author ms-auto" target="_blank">
+                                            <img src="../members/vicente_amado/media/images/ESD_headshot.jpg" alt="Author's Image" class="img-fluid rounded-circle">
+                                        </a>
+                                    </div>
+                                
+                                </div>
+                            
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="row" style="padding-top: 5%;">
+                    <div class="col-lg-6 col-md-6 item" style="width: 520px;">
+                        <div class="card" id="card">
+                            <div class="card-header p-0 position-relative">
+                               <a class="zoom d-flex" href="../../news/snr0509_josh_paper.html">
+                                    <img style="width: 520px; height: 330px" class="card-img-bottom d-block"
+                                        id="news-cover-image" src="website_files/images/article_content/snr0509_viz.png" alt="array">
+                                </a>
+                                <div class="date">
+                                    <p>28th May, 2023</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 item">
+                        <div class="card">
+                            <div class="card-body blog-details" style="max-height: 330px">
+                                <div class='badge-tray'>
+                                    
+                                    
+                                    <span class="badge">Research</span>
+                                    
+                                    
+                                    
+                                    
+                                </div>
+                                <a class="zoom d-blog" href="../../news/snr0509_josh_paper.html">
+                                    <h5 style="font-weight: bold; overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 7; -webkit-box-orient: vertical; font-size:19px; height:auto;">
+                                    A comprehensive SN Ia companion search in SNR 0509-67.5
+                                    </h5>
+                                </a>
+                                
+                            </div>
+                            
+                            <div class="card-footer">
+                                <div>
+                                    <ul class="blog-meta">
+                                        <li>
+                                            <a style="font-size:10px">Contributer(s):</a>
+                                        </li>
+                                        
+                                        
+                                            
+                                            
+                                        <li>
+                                            <a href="members/josh_shields/josh_shields.html" target="_blank">
+                                                <p style="font-size: 10px; height:35px"> Josh Shields</p>
+                                            </a>
+                                        </li>
+                                            
                                         
                                         <li>, </li>
                                         
                                         
                                         
-
                                             
-
                                             
                                         <li>
                                             <a href="members/wolfgang_kerzendorf/wolfgang_kerzendorf.html" target="_blank">
-                                                <p style="font-size: 10px; height:35px"> Wolfgang</p>
+                                                <p style="font-size: 10px; height:35px"> Wolfgang Kerzendorf</p>
                                             </a>
                                         </li>
-
                                             
-
                                         
                                         <li>, </li>
                                         
                                         
                                         
-
                                             
-
                                             
                                         <li>
                                             <a href="members/sofia_biriouk/sofia_biriouk.html" target="_blank">
-                                                <p style="font-size: 10px; height:35px"> Sofia</p>
+                                                <p style="font-size: 10px; height:35px"> Sofia Biriouk</p>
                                             </a>
                                         </li>
-
                                             
-
                                         
                                         <li>, </li>
                                         
                                         
                                         
-
                                             
-
                                             
                                         <li>
                                             <a href="members/hayden_monk/hayden_monk.html" target="_blank">
-                                                <p style="font-size: 10px; height:35px"> Hayden</p>
+                                                <p style="font-size: 10px; height:35px"> Hayden Monk</p>
                                             </a>
                                         </li>
-
                                             
-
                                         
                                         
                                     </ul>
                                 </div>
                             </div>
+                            
                         </div>
                     </div>
                 </div>
                 
-                    <div class="row" style="padding-top: 5%;">
-                        <div class="col-lg-6 col-md-6 item" style="width: 520px;">
-                            <div class="card">
-                                <div class="card-header p-0 position-relative">
-                                    
-                                <a href="news/natsci_fellowship_yuki.html"
-                                    class="zoom d-block">
-                                    
-                                    
-                                        <img style="width: 520px; height: 330px" class="card-img-bottom d-block"
-                                            src="website_files/images/article_content/natsci.jpg" alt="array">
-                                    </a>
-                                    <div class="date">
-                                        <p>04-29-2023</p>
-                                    </div>
+                <div class="row" style="padding-top: 5%;">
+                    <div class="col-lg-6 col-md-6 item" style="width: 520px;">
+                        <div class="card" id="card">
+                            <div class="card-header p-0 position-relative">
+                               <a class="zoom d-flex" href="../../news/natsci_fellowship_yuki.html">
+                                    <img style="width: 520px; height: 330px" class="card-img-bottom d-block"
+                                        id="news-cover-image" src="website_files/images/article_content/natsci.jpg" alt="array">
+                                </a>
+                                <div class="date">
+                                    <p>29th Apr, 2023</p>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-4 col-md-6 item">
-                            <div class="card">
-                                <div class="card-body blog-details" style="max-height: 330px">
+                    </div>
+                    <div class="col-lg-4 col-md-6 item">
+                        <div class="card">
+                            <div class="card-body blog-details" style="max-height: 330px">
+                                <div class='badge-tray'>
                                     
-                                    <a href="news/natsci_fellowship_yuki.html"
-                                        class="zoom d-blog">
-                                        
-                                        
-                                            <div class="heading">
-                                                <h5
-                                                    style="font-weight: bold; overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; font-size:19px; height:70px ">
-                                                    NatSci GREAT IDEA Fellowship
-                                                </h5>
-                                        </a>
+                                    
+                                    
+                                    
+                                    <span class="badge">Research</span>
+                                    
+                                    
+                                    
+                                    <span class="badge">Fellowship</span>
+                                    
+                                    
                                 </div>
-                                <hr style="border-top: 1px dotted rgba(143, 143, 143);">
-                                <div class="price-review mb-1 align-items-center">
-                                    <p
-                                        style="font-size: 15px; overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 4; -webkit-box-orient: vertical; height:109px">
-                                        Yuki and Wolfgang were awarded from the College of Natural Science at Michigan State University.
-                                    </p>
-                                </div>
+                                <a class="zoom d-blog" href="../../news/natsci_fellowship_yuki.html">
+                                    <h5 style="font-weight: bold; overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 7; -webkit-box-orient: vertical; font-size:19px; height:auto;">
+                                    Advancing IDEA in STEM: Our Graduate Yuki and her Mentor Wolfgang Earn Recognition from MSU College of Natural Science
+                                    </h5>
+                                </a>
+                                
                             </div>
+                            
                             <div class="card-footer">
                                 <div>
                                     <ul class="blog-meta">
@@ -588,85 +1163,75 @@
                                         </li>
                                         
                                         
-
                                             
-
                                             
                                         <li>
                                             <a href="members/yuki_matsumura/yuki_matsumura.html" target="_blank">
-                                                <p style="font-size: 10px; height:35px"> Yuki</p>
+                                                <p style="font-size: 10px; height:35px"> Yuki Matsumura</p>
                                             </a>
                                         </li>
-
                                             
-
                                         
                                         <li>, </li>
                                         
                                         
                                         
-
                                             
-
                                             
                                         <li>
                                             <a href="members/wolfgang_kerzendorf/wolfgang_kerzendorf.html" target="_blank">
-                                                <p style="font-size: 10px; height:35px"> Wolfgang</p>
+                                                <p style="font-size: 10px; height:35px"> Wolfgang Kerzendorf</p>
                                             </a>
                                         </li>
-
                                             
-
                                         
                                         
                                     </ul>
                                 </div>
                             </div>
+                            
                         </div>
                     </div>
                 </div>
                 
-                    <div class="row" style="padding-top: 5%;">
-                        <div class="col-lg-6 col-md-6 item" style="width: 520px;">
-                            <div class="card">
-                                <div class="card-header p-0 position-relative">
-                                    
-                                <a href="news/news_nsf22_collab.html"
-                                    class="zoom d-block">
-                                    
-                                    
-                                        <img style="width: 520px; height: 330px" class="card-img-bottom d-block"
-                                            src="website_files/images/article_content/nsf22_collab_stripped.jpg" alt="array">
-                                    </a>
-                                    <div class="date">
-                                        <p>04-19-2023</p>
-                                    </div>
+                <div class="row" style="padding-top: 5%;">
+                    <div class="col-lg-6 col-md-6 item" style="width: 520px;">
+                        <div class="card" id="card">
+                            <div class="card-header p-0 position-relative">
+                               <a class="zoom d-flex" href="../../news/news_nsf22_collab.html">
+                                    <img style="width: 520px; height: 330px" class="card-img-bottom d-block"
+                                        id="news-cover-image" src="website_files/images/article_content/nsf22_collab_stripped.jpg" alt="array">
+                                </a>
+                                <div class="date">
+                                    <p>19th Apr, 2023</p>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-4 col-md-6 item">
-                            <div class="card">
-                                <div class="card-body blog-details" style="max-height: 330px">
+                    </div>
+                    <div class="col-lg-4 col-md-6 item">
+                        <div class="card">
+                            <div class="card-body blog-details" style="max-height: 330px">
+                                <div class='badge-tray'>
                                     
-                                    <a href="news/news_nsf22_collab.html"
-                                        class="zoom d-blog">
-                                        
-                                        
-                                            <div class="heading">
-                                                <h5
-                                                    style="font-weight: bold; overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; font-size:19px; height:70px ">
-                                                    Collaborative Research: Unravelling Stripped Supernovae - Synergy between Observations and Modeling
-                                                </h5>
-                                        </a>
+                                    
+                                    
+                                    
+                                    <span class="badge">Research</span>
+                                    
+                                    
+                                    
+                                    <span class="badge">Grant</span>
+                                    
+                                    
                                 </div>
-                                <hr style="border-top: 1px dotted rgba(143, 143, 143);">
-                                <div class="price-review mb-1 align-items-center">
-                                    <p
-                                        style="font-size: 15px; overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 4; -webkit-box-orient: vertical; height:109px">
-                                        We are thrilled to announce that our NSF research proposal on studying massive stars and their explosive deaths, known as Stripped Supernovae, has been selected for funding.
-                                    </p>
-                                </div>
+                                <a class="zoom d-blog" href="../../news/news_nsf22_collab.html">
+                                    <h5 style="font-weight: bold; overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 7; -webkit-box-orient: vertical; font-size:19px; height:auto;">
+                                    Collaborative Research: Unravelling Stripped Supernovae - Synergy between Observations and Modeling
+                                    </h5>
+                                </a>
+                                
                             </div>
+                            
                             <div class="card-footer">
                                 <div>
                                     <ul class="blog-meta">
@@ -675,18 +1240,14 @@
                                         </li>
                                         
                                         
-
                                             
-
                                             
                                         <li>
                                             <a href="members/wolfgang_kerzendorf/wolfgang_kerzendorf.html" target="_blank">
-                                                <p style="font-size: 10px; height:35px"> Wolfgang</p>
+                                                <p style="font-size: 10px; height:35px"> Wolfgang Kerzendorf</p>
                                             </a>
                                         </li>
-
                                             
-
                                         
                                         <li>, </li>
                                         
@@ -698,7 +1259,6 @@
                                             </a>
                                         </li>
                                         
-
                                         
                                         <li>, </li>
                                         
@@ -712,57 +1272,50 @@
                                             </li>
                                         
                                         
-
                                         
                                         
                                     </ul>
                                 </div>
                             </div>
+                            
                         </div>
                     </div>
                 </div>
                 
-                    <div class="row" style="padding-top: 5%;">
-                        <div class="col-lg-6 col-md-6 item" style="width: 520px;">
-                            <div class="card">
-                                <div class="card-header p-0 position-relative">
-                                    
-                                    
-                                    <a href="sub_research/astrophysical_transients/sn1006_josh_paper.html"
-                                        class="zoom d-block">
-                                        
-                                        <img style="width: 520px; height: 330px" class="card-img-bottom d-block"
-                                            src="website_files/images/article_content/sn1006_viz.png" alt="array">
-                                    </a>
-                                    <div class="date">
-                                        <p>07-10-2022</p>
-                                    </div>
+                <div class="row" style="padding-top: 5%;">
+                    <div class="col-lg-6 col-md-6 item" style="width: 520px;">
+                        <div class="card" id="card">
+                            <div class="card-header p-0 position-relative">
+                               <a class="zoom d-flex" href="../../news/prur_conference.html">
+                                    <img style="width: 520px; height: 330px" class="card-img-bottom d-block"
+                                        id="news-cover-image" src="website_files/images/article_content/img_PRUR.png" alt="array">
+                                </a>
+                                <div class="date">
+                                    <p>12th Feb, 2023</p>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-4 col-md-6 item">
-                            <div class="card">
-                                <div class="card-body blog-details" style="max-height: 330px">
+                    </div>
+                    <div class="col-lg-4 col-md-6 item">
+                        <div class="card">
+                            <div class="card-body blog-details" style="max-height: 330px">
+                                <div class='badge-tray'>
                                     
-                                        
-                                        <a href="sub_research/astrophysical_transients/sn1006_josh_paper.html"
-                                            class="zoom d-blog">
-                                            
-                                            <div class="heading">
-                                                <h5
-                                                    style="font-weight: bold; overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; font-size:19px; height:70px ">
-                                                    Searching for a Hypervelocity White Dwarf SN Ia Companion: A Proper-motion Survey of SN 1006
-                                                </h5>
-                                        </a>
+                                    
+                                    
+                                    
+                                    <span class="badge">Research</span>
+                                    
+                                    
                                 </div>
-                                <hr style="border-top: 1px dotted rgba(143, 143, 143);">
-                                <div class="price-review mb-1 align-items-center">
-                                    <p
-                                        style="font-size: 15px; overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 4; -webkit-box-orient: vertical; height:109px">
-                                        Testing a promising SN Ia progenitor channel by searching for a predicted surviving companion in the SN 1006 Galactic remnant
-                                    </p>
-                                </div>
+                                <a class="zoom d-blog" href="../../news/prur_conference.html">
+                                    <h5 style="font-weight: bold; overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 7; -webkit-box-orient: vertical; font-size:19px; height:auto;">
+                                    Peer Review Under Review - Workshop at European Southern Observatory
+                                    </h5>
+                                </a>
+                                
                             </div>
+                            
                             <div class="card-footer">
                                 <div>
                                     <ul class="blog-meta">
@@ -771,48 +1324,113 @@
                                         </li>
                                         
                                         
-
                                             
-
                                             
                                         <li>
-                                            <a href="members/josh_shields/josh_shields.html" target="_blank">
-                                                <p style="font-size: 10px; height:35px"> Josh</p>
+                                            <a href="members/vicente_amado/vicente_amado.html" target="_blank">
+                                                <p style="font-size: 10px; height:35px"> Vicente  Amado Olivo</p>
                                             </a>
                                         </li>
-
                                             
-
                                         
                                         <li>, </li>
                                         
                                         
                                         
-
                                             
-
                                             
                                         <li>
                                             <a href="members/wolfgang_kerzendorf/wolfgang_kerzendorf.html" target="_blank">
-                                                <p style="font-size: 10px; height:35px"> Wolfgang</p>
+                                                <p style="font-size: 10px; height:35px"> Wolfgang Kerzendorf</p>
                                             </a>
                                         </li>
-
                                             
-
                                         
                                         
                                     </ul>
                                 </div>
                             </div>
+                            
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="row" style="padding-top: 5%;">
+                    <div class="col-lg-6 col-md-6 item" style="width: 520px;">
+                        <div class="card" id="card">
+                            <div class="card-header p-0 position-relative">
+                               <a class="zoom d-flex" href="../../news/sn1006_josh_paper.html">
+                                    <img style="width: 520px; height: 330px" class="card-img-bottom d-block"
+                                        id="news-cover-image" src="website_files/images/article_content/sn1006_viz.png" alt="array">
+                                </a>
+                                <div class="date">
+                                    <p>10th Jul, 2022</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 item">
+                        <div class="card">
+                            <div class="card-body blog-details" style="max-height: 330px">
+                                <div class='badge-tray'>
+                                    
+                                    
+                                    <span class="badge">Research</span>
+                                    
+                                    
+                                    
+                                    
+                                </div>
+                                <a class="zoom d-blog" href="../../news/sn1006_josh_paper.html">
+                                    <h5 style="font-weight: bold; overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 7; -webkit-box-orient: vertical; font-size:19px; height:auto;">
+                                    Searching for a Hypervelocity White Dwarf SN Ia Companion: A Proper-motion Survey of SN 1006
+                                    </h5>
+                                </a>
+                                
+                            </div>
+                            
+                            <div class="card-footer">
+                                <div>
+                                    <ul class="blog-meta">
+                                        <li>
+                                            <a style="font-size:10px">Contributer(s):</a>
+                                        </li>
+                                        
+                                        
+                                            
+                                            
+                                        <li>
+                                            <a href="members/josh_shields/josh_shields.html" target="_blank">
+                                                <p style="font-size: 10px; height:35px"> Josh Shields</p>
+                                            </a>
+                                        </li>
+                                            
+                                        
+                                        <li>, </li>
+                                        
+                                        
+                                        
+                                            
+                                            
+                                        <li>
+                                            <a href="members/wolfgang_kerzendorf/wolfgang_kerzendorf.html" target="_blank">
+                                                <p style="font-size: 10px; height:35px"> Wolfgang Kerzendorf</p>
+                                            </a>
+                                        </li>
+                                            
+                                        
+                                        
+                                    </ul>
+                                </div>
+                            </div>
+                            
                         </div>
                     </div>
                 </div>
                 
             </div>
-            </div>
-        </section>
-
+        </div>
+    </section>
     <!-- //Blog Section -->
 
 
@@ -846,7 +1464,7 @@
 
             </div>
             <!-- copyright -->
-            <p class="copy-footer-29 text-center mt-5 pb-2">Made with passion | Kerzendorf Group <br>
+            <p class="copy-footer-29 text-center mt-5 pb-2">Made with passion | Kerzendorf Lab <br>
                 Template by <a href="https://w3layouts.com/" target="_blank">W3Layouts</a></p>
             <!-- //copyright -->
         </div>
@@ -879,10 +1497,6 @@
         }
     </script>
     <!-- //move top -->
-
-    <!-- common jquery plugin -->
-    <script src="./assets/js/jquery-3.3.1.min.js"></script>
-    <!-- //common jquery plugin -->
 
     <!-- theme switch js (light and dark)-->
     <script src="./assets/js/theme-change.js"></script>
@@ -925,7 +1539,89 @@
     <!-- //tesimonials-->
 
     
-    
+    <script>
+    const allCards = document.querySelectorAll('[id=card]');
+    allCards.forEach(cover => {
+        var coverImage = cover.querySelector('#news-cover-image')
+        var rgb = getAverageRGB(coverImage);
+        cover.style.backgroundColor = 'rgb('+rgb.r+','+rgb.g+','+rgb.b+')';
+    })
+    function getAverageRGB(imgEl) {
+        var blockSize = 5, // only visit every 5 pixels
+            defaultRGB = {r:0,g:0,b:0}, // for non-supporting envs
+            canvas = document.createElement('canvas'),
+            context = canvas.getContext && canvas.getContext('2d'),
+            data, width, height,
+            i = -4,
+            length,
+            rgb = {r:0,g:0,b:0},
+            count = 0;
+            
+        if (!context) {
+            return defaultRGB;
+        }
+        
+        height = canvas.height = imgEl.naturalHeight || imgEl.offsetHeight || imgEl.height;
+        width = canvas.width = imgEl.naturalWidth || imgEl.offsetWidth || imgEl.width;
+        
+        context.drawImage(imgEl, 0, 0);
+        
+        try {
+            data = context.getImageData(0, 0, width, height);
+        } catch(e) {
+            /* security error, img on diff domain */alert('x');
+            return defaultRGB;
+        }
+        
+        length = data.data.length;
+        
+        while ( (i += blockSize * 4) < length ) {
+            ++count;
+            rgb.r += data.data[i];
+            rgb.g += data.data[i+1];
+            rgb.b += data.data[i+2];
+        }
+        
+        // ~~ used to floor values
+        rgb.r = ~~(rgb.r/count);
+        rgb.g = ~~(rgb.g/count);
+        rgb.b = ~~(rgb.b/count);
+        return rgb;            
+    }
+
+    /*Read more functionality*/
+        $(function () {
+        var maxL = 150;
+        $('.description').each(function () {
+            var text = $(this).text();
+            if (text.length > maxL) {
+            var begin = text.substr(0, maxL),
+                end = text.substr(maxL);
+            $(this).html(begin)
+                .append($('<span class="hidden"/>').html(end))
+                .append($('<a class="readmore"/>').html(' ...Read more')); 
+            }
+        });
+
+        $('.readmore').on('click', function () {
+            var hiddenContent = $(this).prev('.hidden');
+var thisDescription = $(this).parent(); // Reference parent container
+
+    if (hiddenContent.css('display') === 'none') {
+      // Toggle overflow and text on click (Read more)
+      hiddenContent.slideToggle(400);
+      thisDescription.css('overflow', 'auto'); // Set overflow: auto
+      $(this).text('Read less');
+    } else {
+      // Toggle overflow and text on click (Read less)
+      hiddenContent.slideToggle(400);
+      thisDescription.css('overflow', 'hidden'); // Set overflow: hidden
+      $(this).text(' ...Read more');
+    }
+  });
+});
+    </script>
+
 
     <!-- MENU-JS -->
     <script>
@@ -969,5 +1665,4 @@
     <!-- //Js scripts -->
 
 </body>
-
 </html>
